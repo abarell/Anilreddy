@@ -1,0 +1,70 @@
+rm -rf *(to remove all)
+git add .
+
+
+
+To create a new repo
+Create a new branch
+git clone URl
+Navigate to that path
+Switch to branch git branch -a(To get all branches) git checkout branchName(to move to that branch)
+To remove data rm -rf *
+To remove a specific file rm -rf fileName
+git add .
+git commit -m "Changes"
+git push
+
+
+Pull request
+git pull
+
+
+Merge
+git merge vishal branch
+git status(to view the changes)
+git add . or git add fileName to get only untracked one's
+git status(to view the changes)
+git commit -m"changes"
+git push
+
+
+ls -la
+rm -rf .git to stop tracking the project
+
+to ignore file 
+touch .gitignore
+
+if you add to remove a added file after git add
+type git reset fileName
+Remove all git reset
+
+Branches
+git branch -a
+delete
+git branch -d branch name
+git push origin --delete branchname
+
+
+Remote
+git remote -v
+
+got remote add origin url
+
+
+to know the diff between the changed files
+git diff
+
+Push
+git push origin master
+
+git push -u origin branch
+git push --set-upstream origin shashi
+
+Pull
+git pull origin master
+
+Merge
+To merge changes to master branch
+git merge branch
+
+
